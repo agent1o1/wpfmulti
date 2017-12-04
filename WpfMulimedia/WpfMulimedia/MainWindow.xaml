@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button Content="Кисти" HorizontalAlignment="Left" Margin="39,65,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="2d-графики" HorizontalAlignment="Left" Margin="157,65,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="3d" HorizontalAlignment="Left" Margin="279,65,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="400,65,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="39,147,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="157,147,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="279,147,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="400,147,0,0" VerticalAlignment="Top" Width="75"/>
+
     </Grid>
 </Window>
