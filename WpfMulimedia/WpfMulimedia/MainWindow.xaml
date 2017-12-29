@@ -7,14 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button Content="Кисти" HorizontalAlignment="Left" Margin="39,65,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="2d-графики" HorizontalAlignment="Left" Margin="157,65,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="3d" HorizontalAlignment="Left" Margin="279,65,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="400,65,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="39,147,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="157,147,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="279,147,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="400,147,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="2d-графики" HorizontalAlignment="Left" Margin="51,136,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="3d поверхность" HorizontalAlignment="Left" Margin="210,136,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click"/>
+        <Button x:Name="BezierButton" Content="Кривые Безье" HorizontalAlignment="Left" Margin="384,136,0,0" VerticalAlignment="Top" Width="94" Click="BezierButton_Click"/>
 
     </Grid>
 </Window>

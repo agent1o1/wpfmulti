@@ -23,6 +23,25 @@ namespace WpfMulimedia
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        private void BezierButton_Click(object sender, RoutedEventArgs e)
+        {
+            AnimateBezierCurve bezier = new AnimateBezierCurve();
+            bezier.Show();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ParametricSurface sur = new ParametricSurface();
+            sur.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            LintCharts chart = new LintCharts();
+            chart.Show();
         }
     }
 }
